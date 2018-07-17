@@ -1,4 +1,9 @@
 $(document).ready(function() {
-  var headings = $('h2');
-  $(headings).last().text("I'm Caitlin Kuiper, and I'm learning JQuery!");
+  var paragraphs = $('p');
+  paragraphs.css({
+    'font-size': '20px',
+    'color': 'white',
+    'background-color': 'blue',
+    'padding': '15px'
+  });
 });
